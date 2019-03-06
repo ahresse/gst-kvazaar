@@ -1,0 +1,1 @@
+option('with-crypto', type : 'boolean', value : false, description : 'Enable crypto features, requires Kvazaar build with cryptopp')

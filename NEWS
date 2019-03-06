@@ -1,0 +1,14 @@
+gst-kvazaar version 0.1.0, released on 06/03/2019
+=================================================
+
+New functionality
+-----------------
+
+* Basic Kvazaar encoder in GStreamer element.
+
+* Selective encryption functionality possible to enale at buildtime.
+
+Building
+--------
+
+* gst-kvazaar build on Debian 9.8 with GStreamer 1.10.4

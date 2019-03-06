@@ -1,0 +1,50 @@
+/* GStreamer API Version */
+#mesondefine GST_API_VERSION
+
+/* plugins version */
+#mesondefine GST_PLUGIN_VERSION
+
+/* plugins license */
+#mesondefine GST_PLUGIN_LICENSE
+
+/* plugin origin */
+#mesondefine GST_PLUGIN_ORIGIN
+
+/* Define if the target CPU is an ARM */
+#mesondefine HAVE_CPU_ARM
+
+/* Define if the target CPU is an x86_64 */
+#mesondefine HAVE_CPU_X86_64
+
+/* the host CPU */
+#mesondefine HOST_CPU
+
+/* library dir */
+#mesondefine LIBDIR
+
+/* Name of package */
+#mesondefine PACKAGE
+
+/* directory where plugins are located */
+#mesondefine PLUGINDIR
+
+/* The size of `char', as computed by sizeof. */
+#mesondefine SIZEOF_CHAR
+
+/* The size of `int', as computed by sizeof. */
+#mesondefine SIZEOF_INT
+
+/* The size of `long', as computed by sizeof. */
+#mesondefine SIZEOF_LONG
+
+/* The size of `short', as computed by sizeof. */
+#mesondefine SIZEOF_SHORT
+
+/* The size of `void*', as computed by sizeof. */
+#mesondefine SIZEOF_VOIDP
+
+/* the target CPU */
+#mesondefine TARGET_CPU
+
+/* Kvazaar is built with cryptopp */
+#mesondefine HAS_CRYPTO
